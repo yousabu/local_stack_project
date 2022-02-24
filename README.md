@@ -1,25 +1,18 @@
-# Prerequisites
-#
-- JDK 1.8 or later
-- Maven 3 or later
-- MySQL 5.6 or later
 
 # Technologies 
-- Spring MVC
-- Spring Security
-- Spring Data JPA
 - Maven
-- JSP
 - MySQL
-# Database
-Here,we used Mysql DB 
-MSQL DB Installation Steps for Linux ubuntu 14.04:
-- $ sudo apt-get update
-- $ sudo apt-get install mysql-server
+- RabbitMQ
+- Elasticsearch
+- Nginx
+- Tomcat
+- Memcache
+- vagrant
+# Description
+- this project is fully automated by bash script for every vm
 
-Then look for the file :
-- /src/main/resources/accountsdb
-- accountsdb.sql file is a mysql dump file.we have to import this dump to mysql db server
-- > mysql -u <user_name> -p accounts < accountsdb.sql
+# Image
+![Screenshot from 2022-02-24 16-07-23](https://user-images.githubusercontent.com/66924041/155539426-2d57cc0e-9c07-4f68-bb5e-5c8abc457757.png)
 
-
+# supervisor
+- Visualpath
